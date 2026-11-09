@@ -1,0 +1,33 @@
+﻿Table,Column 1,Column 2,Column 3
+Laboratory details,Duration,2 hours and 30 minutes (150 minutes),
+Laboratory details,Mode,Individual or pairs (instructor's choice),
+Laboratory details,Tools,"Python, VS Code or Google Colab, GitHub, Streamlit",
+Laboratory details,Dataset,UCI Student Performance Dataset (Mathematics file),
+Laboratory details,Final output,"A working local Streamlit prediction app, GitHub repository, and brief SAD artifacts",
+SAD mini-activity,Problem statement,Academic risk is often noticed after poor results. The prototype explores early identification using available student indicators.,
+SAD mini-activity,Users,Faculty member or academic analyst.,
+SAD mini-activity,Inputs,"Student attributes and academic indicators such as study time, absences, failures, G1 and G2.",
+SAD mini-activity,Process,Validate data → preprocess → apply trained model → classify risk.,
+SAD mini-activity,Outputs,AT RISK / NOT AT RISK label and model evaluation summary.,
+SAD mini-activity,Key limitation,A model trained on one Portuguese secondary-school dataset may not generalize to another institution or population.,
+Time plan,0–10 min,"Scenario, target definition, and SAD mini-activity","Problem, user, inputs/process/outputs"
+Time plan,10–25 min,Set up environment and retrieve online dataset,student_data.csv; inspect first rows
+Time plan,25–50 min,Preprocess data and train the model,Saved student_model.pkl
+Time plan,50–65 min,Evaluate model and discuss metrics,Accuracy and classification report
+Time plan,65–105 min,Build and run Streamlit application,Working local app
+Time plan,105–125 min,Create GitHub repository and push files,Repository URL and commits
+Time plan,125–145 min,Test application and complete reflection,Test evidence and answers
+Time plan,145–150 min,Submit outputs,Final submission checklist
+Test checklist,Run train_model.py,CSV and model files are created without errors.,☐
+Test checklist,Run Streamlit app,Dashboard loads in browser.,☐
+Test checklist,Upload sample CSV,Predictions are displayed.,☐
+Test checklist,Upload CSV missing a required column,The app displays a helpful error message.,☐
+Test checklist,Download results,A CSV containing predictions is downloaded.,☐
+Test checklist,Open GitHub repository,Source files and README are visible.,☐
+Grading criteria,SAD mini-analysis and understanding,10%,
+Grading criteria,Dataset retrieval and preprocessing,15%,
+Grading criteria,Model training and evaluation,25%,
+Grading criteria,Streamlit application and functional testing,30%,
+Grading criteria,GitHub repository and README,10%,
+Grading criteria,Reflection and responsible interpretation,10%,
+Grading criteria,TOTAL,100%,
